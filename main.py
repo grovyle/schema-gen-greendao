@@ -60,7 +60,7 @@ def main():
         )
 
     t = DAOTranslator()
-    name = 'com.kevinramdath.professor'
+    name = 'com.company.professor'
     body = t.translate_metadata(metas)
     path = 'gen'
 
